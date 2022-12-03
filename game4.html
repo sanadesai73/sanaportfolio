@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+        <style>
+            a:link,
+            a:visited {
+                background-color: #f44336;
+                color: white;
+                padding: 14px 25px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+            }
+
+            a:hover,
+            a:active {
+                background-color: red;
+            }
+
+
+            .row {
+                display: flex;
+                flex-wrap: wrap;
+                padding: 0 4px;
+                margin-top: 100px;
+            }
+
+            /* Create four equal columns that sits next to each other */
+            .column {
+                flex: 25%;
+                max-width: 35%;
+                padding: 0 4px;
+            }
+
+            .column img {
+                margin-top: 8px;
+                vertical-align: middle;
+                width: 100%;
+            }
+
+            /* Responsive layout - makes a two column-layout instead of four columns */
+            @media screen and (max-width: 800px) {
+                .column {
+                    flex: 50%;
+                    max-width: 50%;
+                }
+            }
+
+            /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+            @media screen and (max-width: 600px) {
+                .column {
+                    flex: 100%;
+                    max-width: 100%;
+                }
+            }
+
+            .blockw40 {
+                width: 40vw;
+            }
+
+            .button {
+                border: none;
+                color: #f44336;
+                padding: 16px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                transition-duration: 0.4s;
+                cursor: pointer;
+            }
+
+            .button1 {
+                background-color: #f44336;
+                color: black;
+                border: 2px solid #f44336;
+            }
+
+            .button1:hover {
+                background-color: red;
+                color: white;
+            }
+
+            .button2 {
+                background-color: #f44336;
+                color: black;
+                border: 2px solid #f44336;
+            }
+
+            .button2:hover {
+                background-color: red;
+                color: white;
+            }
+
+            .button3 {
+                background-color: #f44336;
+                color: black;
+                border: 2px solid #f44336;
+            }
+
+            .button3:hover {
+                background-color: red;
+                color: white;
+            }
+
+            .button4 {
+                background-color: #f44336;
+                color: black;
+                border: 2px solid #f44336;
+            }
+
+            .button4:hover {
+                background-color: red;
+                color: white;
+            }
+
+            .button5 {
+                background-color: #f44336;
+                color: black;
+                border: 2px solid #f44336;
+            }
+
+            .button5:hover {
+                background-color: red;
+                color: white;
+            }
+        </style>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/addons/p5.sound.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    <body>
+
+        <!-- Nav Bar -->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand" style="font-family:'futura'; color: crimson;">Design Portfolio</a>
+            <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="my-nav" class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" style="font-family:'futura'" href="../Html/portfolio.html"> My Works <span
+                                class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" style="font-family:'futura'" href="../Html/portfolioworks.html"> More
+                            Designs <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="font-family:'futura'" href="../Html/portfolioaboutme.html">
+                            About Me <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="font-family:'futura'" href="../Html/portfoliogames.html"
+                            tabindex="-1" aria-disabled="true"> Games</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Games heading -->
+        <div>
+            <script style="height:400px" src="../Html/game4.js"> </script>
+        </div>
